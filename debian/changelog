@@ -1,3 +1,9 @@
+linux (5.10.46-1+pinephone) unstable; urgency=medium
+
+  * Add pinephone support
+
+ -- Matthew Harm Bekkema <id@mbekkema.name>  Sun, 18 Jul 2021 19:19:21 +1000
+
 linux (5.10.46-1) unstable; urgency=medium
 
   * New upstream stable update:
