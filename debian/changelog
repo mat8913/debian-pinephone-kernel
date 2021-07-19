@@ -1,4 +1,4 @@
-linux (5.10.46-1+pinephone) unstable; urgency=medium
+linux (5.10.46-1+pinephone) UNRELEASED; urgency=medium
 
   * Add pinephone support
 
