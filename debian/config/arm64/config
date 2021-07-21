@@ -1276,12 +1276,12 @@ CONFIG_VIDEO_BCM2835=m
 ##
 ## file: drivers/tee/Kconfig
 ##
-CONFIG_TEE=y
+CONFIG_TEE=m
 
 ##
 ## file: drivers/tee/optee/Kconfig
 ##
-CONFIG_OPTEE=y
+CONFIG_OPTEE=m
 
 ##
 ## file: drivers/thermal/Kconfig
