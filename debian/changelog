@@ -1,8 +1,37 @@
-linux (5.10.46-1+pinephone) UNRELEASED; urgency=medium
+linux (5.10.46-3+pinephone) UNRELEASED; urgency=medium
 
   * Add pinephone support
 
- -- Matthew Harm Bekkema <id@mbekkema.name>  Sun, 18 Jul 2021 19:19:21 +1000
+ -- Matthew Harm Bekkema <id@mbekkema.name>  Sun, 01 Aug 2021 16:15:57 +1000
+
+linux (5.10.46-3) unstable; urgency=medium
+
+  * [armhf] Add mdio-aspeed to nic-modules.
+    Thanks to Joel Stanley <joel@jms.id.au> (Closes: #991262)
+  * Revert "drm/amdgpu/gfx9: fix the doorbell missing when in CGPG issue."
+    (Closes: #990312)
+  * Revert "drm/amdgpu/gfx10: enlarge CP_MEC_DOORBELL_RANGE_UPPER to cover full
+    doorbell." (Closes: #990312)
+  * Input: joydev - prevent use of not validated data in JSIOCSBTNMAP ioctl
+    (CVE-2021-3612)
+  * sctp: validate from_addr_param return (CVE-2021-3655)
+  * sctp: add size validation when walking chunks (CVE-2021-3655)
+  * [s390x] sclp_vt220: fix console name to match device (Closes: #961056)
+  * block: return the correct bvec when checking for gaps
+  * sctp: fix return value check in __sctp_rcv_asconf_lookup
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 28 Jul 2021 07:55:40 +0200
+
+linux (5.10.46-2) unstable; urgency=medium
+
+  * swiotlb: manipulate orig_addr when tlb_addr has offset (Closes: #989778)
+  * KVM: do not allow mapping valid but non-reference-counted pages
+    (CVE-2021-22543)
+  * [x86] platform/x86: toshiba_haps: Fix missing newline in pr_debug call in
+    toshiba_haps_notify (Closes: #799193)
+  * seq_file: Disallow extremely large seq buffer allocations (CVE-2021-33909)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 20 Jul 2021 14:06:36 +0200
 
 linux (5.10.46-1) unstable; urgency=medium
 
