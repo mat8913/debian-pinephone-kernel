@@ -216,7 +216,6 @@ pp/0055-media-ov5640-set-default-ae-target-lower.patch
 pp/0056-Make-microbuttons-on-Orange-Pi-PC-and-PC-2-work-as-p.patch
 pp/0057-Add-support-for-my-private-Sapomat-device.patch
 pp/0058-Fix-build-with-cross-compiler-built-with-with-arch-a.patch
-pp/0059-Add-README.md-with-information-and-u-boot-patches.patch
 pp/0061-net-stmmac-sun8i-Use-devm_regulator_get-for-PHY-regu.patch
 pp/0062-net-stmmac-sun8i-Rename-PHY-regulator-variable-to-re.patch
 pp/0063-net-stmmac-sun8i-Add-support-for-enabling-a-regulato.patch
