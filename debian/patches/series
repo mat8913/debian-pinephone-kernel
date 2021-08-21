@@ -373,7 +373,6 @@ pp/0255-drm-sun8i-ui-vi-Fix-layer-zpos-change-atomic-modeset.patch
 pp/0256-drm-sun4i-Mark-one-of-the-UI-planes-as-a-cursor-one.patch
 pp/0257-drm-sun4i-drm-Recover-from-occasional-HW-failures.patch
 pp/0258-drm-debugging-code.patch
-pp/0259-clk-sunxi-ng-sun50i-a64-Switch-parent-of-MIPI-DSI-to.patch
 pp/0260-drm-panel-st7703-Fix-xbd599-timings-to-make-refresh-.patch
 pp/0261-drm-sun4i-decouple-TCON_DCLK_DIV-value-from-pll_mipi.patch
 pp/0262-drm-lima-add-LIMA_BO_FLAG_FORCE_VA.patch
