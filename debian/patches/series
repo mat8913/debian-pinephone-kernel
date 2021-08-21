@@ -235,10 +235,7 @@ pp/0076-input-cyttsp4-Port-the-driver-to-use-device-properti.patch
 pp/0077-input-cyttsp4-Restart-on-wakeup-wakeup-by-I2C-read-d.patch
 pp/0078-input-cyttsp4-Fix-warnings.patch
 pp/0079-input-cyttsp4-Make-the-driver-not-hog-the-system-s-w.patch
-pp/0080-video-fbdev-eInk-display-driver-for-A13-based-Pocket.patch
 pp/0081-regulator-Add-simple-driver-for-enabling-a-regulator.patch
-pp/0082-regulator-tp65185x-Add-tp65185x-eInk-panel-regulator.patch
-pp/0083-regulator-tp65185-Add-hwmon-device-for-reading-tempe.patch
 pp/0084-ARM-dts-sun5i-Add-soc-handle.patch
 pp/0085-ARM-dts-sun5i-Add-PocketBook-Touch-Lux-3-display-ctp.patch
 pp/0086-ARM-dts-sun5i-a13-pocketbook-touch-lux-3-Add-RTC-clo.patch
@@ -372,7 +369,6 @@ pp/0250-drm-sun4i-sun6i_mipi_dsi-add-support-for-generic-lon.patch
 pp/0251-clk-sunxi-ng-add-support-for-rate-resetting-notifier.patch
 pp/0252-clk-sunxi-ng-a64-try-to-keep-TCON0-clock-in-CCU.patch
 pp/0253-drm-sun4i-tcon-hand-over-the-duty-to-keep-TCON0-cloc.patch
-pp/0254-drm-sun4i-Support-taking-over-display-pipeline-state.patch
 pp/0255-drm-sun8i-ui-vi-Fix-layer-zpos-change-atomic-modeset.patch
 pp/0256-drm-sun4i-Mark-one-of-the-UI-planes-as-a-cursor-one.patch
 pp/0257-drm-sun4i-drm-Recover-from-occasional-HW-failures.patch
