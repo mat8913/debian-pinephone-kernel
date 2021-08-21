@@ -217,7 +217,6 @@ pp/0056-Make-microbuttons-on-Orange-Pi-PC-and-PC-2-work-as-p.patch
 pp/0057-Add-support-for-my-private-Sapomat-device.patch
 pp/0058-Fix-build-with-cross-compiler-built-with-with-arch-a.patch
 pp/0059-Add-README.md-with-information-and-u-boot-patches.patch
-pp/0060-Defconfigs-for-all-my-devices.patch
 pp/0061-net-stmmac-sun8i-Use-devm_regulator_get-for-PHY-regu.patch
 pp/0062-net-stmmac-sun8i-Rename-PHY-regulator-variable-to-re.patch
 pp/0063-net-stmmac-sun8i-Add-support-for-enabling-a-regulato.patch
@@ -464,7 +463,6 @@ pp/0303-thermal-sun8i-Be-loud-when-probe-fails.patch
 pp/0304-arm64-dts-allwinner-a64-pinetab-add-front-camera.patch
 pp/0305-arm64-allwinner-dts-a64-enable-K101-IM2BYL02-panel-f.patch
 pp/0306-drm-panel-Adjust-sync-values-for-Feixin-K101-IM2BYL0.patch
-pp/0307-Update-defcofings-add-ASHMEM.patch
 pp/0308-media-gc2145-Added-BGGR-bayer-mode.patch
 pp/0309-arm64-dts-allwinner-Enforce-consistent-MMC-numbering.patch
 pp/0310-ARM-dts-sunxi-Add-aliases-fro-mmc.patch
