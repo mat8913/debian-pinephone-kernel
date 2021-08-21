@@ -1,0 +1,26 @@
+From 02abf453a469f0f3a54d8c193a053bc41e3d1f2e Mon Sep 17 00:00:00 2001
+From: Ondrej Jirman <megous@megous.com>
+Date: Sun, 26 Jan 2020 00:40:55 +0100
+Subject: [PATCH 043/312] [personal] media: sun6i-csi: Add some dev notes
+
+Signed-off-by: Ondrej Jirman <megous@megous.com>
+---
+ drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c b/drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c
+index 73c3927afa57..5b335a00df6c 100644
+--- a/drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c
++++ b/drivers/media/platform/sunxi/sun6i-csi/sun6i_video.c
+@@ -412,6 +412,8 @@ static int vidioc_try_fmt_vid_cap(struct file *file, void *priv,
+ 	return sun6i_video_try_fmt(video, f);
+ }
+ 
++//XXX: allow to change cameras/media graph setup via this api?
++// probably pointless...
+ static int vidioc_enum_input(struct file *file, void *fh,
+ 			     struct v4l2_input *inp)
+ {
+-- 
+2.31.1
+
