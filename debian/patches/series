@@ -204,15 +204,7 @@ pp/0043-personal-media-sun6i-csi-Add-some-dev-notes.patch
 pp/0044-media-sun6i-csi-Disable-control-handler-in-the-csi-d.patch
 pp/0045-dt-bindings-media-Add-bindings-for-Himax-HM5065-came.patch
 pp/0046-hm5065-yaml-bindings-wip.patch
-pp/0047-media-hm5065-Add-subdev-driver-for-Himax-HM5065-came.patch
-pp/0048-MAINTAINERS-Add-entry-for-Himax-HM5065.patch
-pp/0049-media-gc2145-Galaxycore-camera-module-driver.patch
 pp/0050-media-sun6i-csi-Make-the-video-device-respect-user-p.patch
-pp/0051-media-ov5640-Add-more-framerates-to-the-driver-some-.patch
-pp/0052-media-ov5640-Experiment-Try-to-disable-denoising-sha.patch
-pp/0053-media-ov5640-Sleep-after-poweroff-to-ensure-next-pow.patch
-pp/0054-media-ov5640-Don-t-powerup-the-sensor-during-driver-.patch
-pp/0055-media-ov5640-set-default-ae-target-lower.patch
 pp/0056-Make-microbuttons-on-Orange-Pi-PC-and-PC-2-work-as-p.patch
 pp/0057-Add-support-for-my-private-Sapomat-device.patch
 pp/0058-Fix-build-with-cross-compiler-built-with-with-arch-a.patch
@@ -407,7 +399,6 @@ pp/0303-thermal-sun8i-Be-loud-when-probe-fails.patch
 pp/0304-arm64-dts-allwinner-a64-pinetab-add-front-camera.patch
 pp/0305-arm64-allwinner-dts-a64-enable-K101-IM2BYL02-panel-f.patch
 pp/0306-drm-panel-Adjust-sync-values-for-Feixin-K101-IM2BYL0.patch
-pp/0308-media-gc2145-Added-BGGR-bayer-mode.patch
 pp/0309-arm64-dts-allwinner-Enforce-consistent-MMC-numbering.patch
 pp/0310-ARM-dts-sunxi-Add-aliases-fro-mmc.patch
 pp/0311-usb-typec-anx7688-Fix-flashing-ANX7688-EEPROM.patch
