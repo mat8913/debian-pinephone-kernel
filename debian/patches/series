@@ -196,6 +196,7 @@ pp/0067-mtd-spi-nor-Add-regulator-support.patch
 pp/0081-regulator-Add-simple-driver-for-enabling-a-regulator.patch
 pp/0087-mfd-sun4i-gpadc-Interrupt-numbers-should-start-from-.patch
 pp/0089-irqchip-sunxi-nmi-support-wake-up.patch
+pp/0093-arm64-dts-sun50i-a64-pinephone-Add-WiFi-support.patch
 pp/0103-iio-core-Add-option-to-force-identity-mount-matrix.patch
 pp/0131-dt-bindings-ASoC-sun4i-i2s-Add-H6-compatible.patch
 pp/0165-ASoC-dt-bindings-sun8i-codec-Increase-sound-dai-cell.patch
