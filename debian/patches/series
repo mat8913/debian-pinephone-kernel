@@ -215,18 +215,6 @@ pp/0064-net-stmmac-sun8i-Fix-reboot-issue-with-ethernet-on-O.patch
 pp/0065-arm64-dts-allwinner-orange-pi-3-Enable-ethernet.patch
 pp/0066-iio-adc-sun4i-gpadc-iio-Allow-to-use-sun5i-a13-gpadc.patch
 pp/0067-mtd-spi-nor-Add-regulator-support.patch
-pp/0068-input-cyttsp4-De-obfuscate-platform-data-for-keys.patch
-pp/0069-input-cyttsp4-Remove-useless-indirection-with-driver.patch
-pp/0070-input-cyttsp4-Remove-unused-enable_vkeys.patch
-pp/0071-input-cyttsp4-De-obfuscate-MT-signals-setup-platform.patch
-pp/0072-input-cyttsp4-Clear-the-ids-buffer-in-a-saner-way.patch
-pp/0073-input-cyttsp4-ENOSYS-error-is-ok-when-powering-up.patch
-pp/0074-input-cyttsp4-Faster-recovery-from-failed-wakeup-HAC.patch
-pp/0075-input-cyttsp4-Use-i2c-spi-names-directly-in-the-driv.patch
-pp/0076-input-cyttsp4-Port-the-driver-to-use-device-properti.patch
-pp/0077-input-cyttsp4-Restart-on-wakeup-wakeup-by-I2C-read-d.patch
-pp/0078-input-cyttsp4-Fix-warnings.patch
-pp/0079-input-cyttsp4-Make-the-driver-not-hog-the-system-s-w.patch
 pp/0081-regulator-Add-simple-driver-for-enabling-a-regulator.patch
 pp/0084-ARM-dts-sun5i-Add-soc-handle.patch
 pp/0085-ARM-dts-sun5i-Add-PocketBook-Touch-Lux-3-display-ctp.patch
@@ -234,7 +222,6 @@ pp/0086-ARM-dts-sun5i-a13-pocketbook-touch-lux-3-Add-RTC-clo.patch
 pp/0087-mfd-sun4i-gpadc-Interrupt-numbers-should-start-from-.patch
 pp/0088-arm64-dts-sun50i-a64-pinephone-Add-light-proximity-s.patch
 pp/0089-irqchip-sunxi-nmi-support-wake-up.patch
-pp/0090-input-touchscreen-goodix-Add-config-debugfs-file.patch
 pp/0091-arm64-dts-allwinner-a64-Fix-LRADC-compatible.patch
 pp/0092-arm64-dts-sun50i-a64-pinephone-Drop-AC-power-supply.patch
 pp/0093-arm64-dts-sun50i-a64-pinephone-Add-WiFi-support.patch
