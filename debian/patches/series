@@ -197,6 +197,7 @@ pp/0081-regulator-Add-simple-driver-for-enabling-a-regulator.patch
 pp/0087-mfd-sun4i-gpadc-Interrupt-numbers-should-start-from-.patch
 pp/0088-arm64-dts-sun50i-a64-pinephone-Add-light-proximity-s.patch
 pp/0089-irqchip-sunxi-nmi-support-wake-up.patch
+pp/0091-arm64-dts-allwinner-a64-Fix-LRADC-compatible.patch
 pp/0092-arm64-dts-sun50i-a64-pinephone-Drop-AC-power-supply.patch
 pp/0093-arm64-dts-sun50i-a64-pinephone-Add-WiFi-support.patch
 pp/0094-arm64-dts-sun50i-a64-pinephone-Add-Bluetooth-support.patch
@@ -211,6 +212,7 @@ pp/0103-iio-core-Add-option-to-force-identity-mount-matrix.patch
 pp/0104-arm64-dts-allwinner-pinephone-Add-support-for-Blueto.patch
 pp/0106-arm64-dts-allwinner-pinephone-Add-support-for-modem-.patch
 pp/0107-arm64-dts-allwinner-pinephone-Set-audio-card-name.patch
+pp/0108-arm64-dts-allwinner-set-GPU-clock-to-432-MHz.patch
 pp/0109-arm64-dts-sun50i-a64-pinephone-Use-QDAI-compatible-w.patch
 pp/0110-arm64-dts-pinephone-Retain-leds-state-in-suspend.patch
 pp/0111-arm64-dts-pinephone-Drop-flash-leds-to-fix-cameras-p.patch
@@ -221,11 +223,15 @@ pp/0139-arm64-dts-allwinner-a64-Add-DAI-node-and-soundcard-f.patch
 pp/0165-ASoC-dt-bindings-sun8i-codec-Increase-sound-dai-cell.patch
 pp/0166-ASoC-dt-bindings-sun50i-codec-Add-binding-for-intern.patch
 pp/0173-clk-sunxi-ng-a64-Increase-PLL_AUDIO-base-frequency.patch
+pp/0175-arm64-dts-allwinner-a64-Allow-using-multiple-codec-D.patch
 pp/0176-arm64-dts-allwinner-a64-Add-pinmux-nodes-for-AIF2-AI.patch
+pp/0177-arm64-dts-allwinner-a64-Allow-multiple-DAI-links.patch
+pp/0183-arm64-dts-sun50i-a64-Set-fifo-size-for-uarts.patch
 pp/0185-Mark-some-slow-drivers-for-async-probe-with-PROBE_PR.patch
 pp/0186-arm64-xor-Select-32regs-without-benchmark-to-speed-u.patch
 pp/0187-clk-Implement-protected-clocks-for-all-OF-clock-prov.patch
 pp/0188-Revert-clk-qcom-Support-protected-clocks-property.patch
+pp/0191-DO-NOT-MERGE-arm64-dts-allwinner-a64-Protect-SCP-clo.patch
 pp/0193-pwm-sun4i-direct-clock-output-support-for-Allwinner-.patch
 pp/0194-pwm-sun4i-Move-delay-to-function.patch
 pp/0195-bus-sunxi-rsb-Always-check-register-address-validity.patch
@@ -238,8 +244,10 @@ pp/0201-bus-sunxi-rsb-Implement-runtime-power-management.patch
 pp/0202-bus-sunxi-rsb-Make-interrupt-handling-more-robust.patch
 pp/0203-rtc-sun6i-Use-wake-IRQ-instead-of-device-PM-ops.patch
 pp/0204-firmware-arm_scpi-Support-unidirectional-mailbox-cha.patch
+pp/0207-arm64-dts-allwinner-a64-Add-SCPI-protocol.patch
 pp/0209-irqchip-sun6i-r-Use-a-stacked-irqchip-driver.patch
 pp/0210-irqchip-sun6i-r-Add-wakeup-support.patch
+pp/0214-arm64-dts-allwinner-a64-Move-wakeup-capable-IRQs-to-.patch
 pp/0218-irqchip-sun6i-r-Fix-interrupt-handling-on-A83T.patch
 pp/0219-mmc-sunxi-Disable-runtime-pm.patch
 pp/0235-power-supply-cw2015-Silence-cw2015.patch
@@ -273,3 +281,4 @@ pp/0299-power-supply-axp20x_battery-Send-uevents-for-status-.patch
 pp/0300-power-supply-axp20x_battery-Monitor-battery-health.patch
 pp/0301-power-supply-axp20x-usb-power-Change-Vbus-hold-volta.patch
 pp/0303-thermal-sun8i-Be-loud-when-probe-fails.patch
+pp/0309-arm64-dts-allwinner-Enforce-consistent-MMC-numbering.patch
