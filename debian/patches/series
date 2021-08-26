@@ -217,9 +217,11 @@ pp/0111-arm64-dts-pinephone-Drop-flash-leds-to-fix-cameras-p.patch
 pp/0112-arm64-dts-sun50i-pinephone-Move-source-sink-caps-to-.patch
 pp/0113-arm64-dts-sun50i-pinephone-Bump-I2C-frequency-to-400.patch
 pp/0131-dt-bindings-ASoC-sun4i-i2s-Add-H6-compatible.patch
+pp/0139-arm64-dts-allwinner-a64-Add-DAI-node-and-soundcard-f.patch
 pp/0165-ASoC-dt-bindings-sun8i-codec-Increase-sound-dai-cell.patch
 pp/0166-ASoC-dt-bindings-sun50i-codec-Add-binding-for-intern.patch
 pp/0173-clk-sunxi-ng-a64-Increase-PLL_AUDIO-base-frequency.patch
+pp/0176-arm64-dts-allwinner-a64-Add-pinmux-nodes-for-AIF2-AI.patch
 pp/0185-Mark-some-slow-drivers-for-async-probe-with-PROBE_PR.patch
 pp/0186-arm64-xor-Select-32regs-without-benchmark-to-speed-u.patch
 pp/0187-clk-Implement-protected-clocks-for-all-OF-clock-prov.patch
