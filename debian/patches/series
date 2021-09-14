@@ -173,14 +173,6 @@ pp/0034-firmware-scpi-Don-t-probe-SCP-during-SCPI-driver-pro.patch
 pp/0035-ARM-sunxi-Use-SCPI-to-send-suspend-message-to-SCP-on.patch
 pp/0036-gnss-ubx-Send-soft-powerdown-message-on-suspend.patch
 pp/0037-input-sun4i-lradc-keys-Add-wakup-support.patch
-pp/0038-media-sun6i-csi-Add-support-for-RGB565-and-RGB555.patch
-pp/0039-media-sun6i-csi-Pass-on-g_parm-s_parm-to-the-subdev.patch
-pp/0040-media-sun6i-csi-Add-support-for-missing-16bit-color-.patch
-pp/0041-media-sun6i-csi-Add-support-for-multiple-endpoints.patch
-pp/0042-media-sun6i-csi-Fix-vidioc_g-s_parm-to-handle-lack-o.patch
-pp/0043-personal-media-sun6i-csi-Add-some-dev-notes.patch
-pp/0044-media-sun6i-csi-Disable-control-handler-in-the-csi-d.patch
-pp/0050-media-sun6i-csi-Make-the-video-device-respect-user-p.patch
 pp/0058-Fix-build-with-cross-compiler-built-with-with-arch-a.patch
 pp/0061-net-stmmac-sun8i-Use-devm_regulator_get-for-PHY-regu.patch
 pp/0062-net-stmmac-sun8i-Rename-PHY-regulator-variable-to-re.patch
