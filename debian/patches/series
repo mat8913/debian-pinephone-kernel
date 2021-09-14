@@ -164,7 +164,6 @@ pp/0008-cpufreq-sun50i-Show-detected-CPU-bin-for-easier-debu.patch
 pp/0010-leds-axp20x-Support-charger-LED-on-AXP20x-like-PMICs.patch
 pp/0014-input-gpio-vibra-Allow-to-use-vcc-supply-alone-to-co.patch
 pp/0017-nfc-pn544-Add-support-for-VBAT-PVDD-regulators.patch
-pp/0025-bluetooth-bcm-Restore-drive_rts_on_open-true-behavio.patch
 pp/0029-mmc-add-delay-after-power-class-selection.patch
 pp/0030-mailbox-Allow-to-run-mailbox-while-timekeeping-is-su.patch
 pp/0031-ARM-sunxi-Add-experimental-suspend-to-memory-impleme.patch
@@ -216,11 +215,6 @@ pp/0219-mmc-sunxi-Disable-runtime-pm.patch
 pp/0235-power-supply-cw2015-Silence-cw2015.patch
 pp/0237-media-cedrus-Fix-missing-cleanup-in-error-path.patch
 pp/0238-media-cedrus-Fix-failure-to-clean-up-hardware-on-pro.patch
-pp/0241-Bluetooth-Add-new-quirk-for-broken-local-ext-feature.patch
-pp/0242-Bluetooth-hci_h5-Add-support-for-reset-GPIO.patch
-pp/0243-Bluetooth-hci_h5-Add-support-for-binding-RTL8723BS-w.patch
-pp/0244-Bluetooth-btrtl-add-support-for-the-RTL8723CS.patch
-pp/0245-bluetooth-btrtl-Make-more-space-for-config-firmware-.patch
 pp/0251-clk-sunxi-ng-add-support-for-rate-resetting-notifier.patch
 pp/0252-clk-sunxi-ng-a64-try-to-keep-TCON0-clock-in-CCU.patch
 pp/0263-phy-allwinner-sun4i-usb-Add-support-for-usb_role_swi.patch
