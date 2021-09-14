@@ -174,10 +174,6 @@ pp/0035-ARM-sunxi-Use-SCPI-to-send-suspend-message-to-SCP-on.patch
 pp/0036-gnss-ubx-Send-soft-powerdown-message-on-suspend.patch
 pp/0037-input-sun4i-lradc-keys-Add-wakup-support.patch
 pp/0058-Fix-build-with-cross-compiler-built-with-with-arch-a.patch
-pp/0061-net-stmmac-sun8i-Use-devm_regulator_get-for-PHY-regu.patch
-pp/0062-net-stmmac-sun8i-Rename-PHY-regulator-variable-to-re.patch
-pp/0063-net-stmmac-sun8i-Add-support-for-enabling-a-regulato.patch
-pp/0064-net-stmmac-sun8i-Fix-reboot-issue-with-ethernet-on-O.patch
 pp/0066-iio-adc-sun4i-gpadc-iio-Allow-to-use-sun5i-a13-gpadc.patch
 pp/0067-mtd-spi-nor-Add-regulator-support.patch
 pp/0081-regulator-Add-simple-driver-for-enabling-a-regulator.patch
