@@ -1,1 +1,1 @@
-cd ..; rm *.deb; rm -r linux-5.10.46; apt source linux; cd linux-5.10.46; rm -r debian; cp -r ../linux/debian .
+cd ..; rm *.deb; rm -r linux-5.10.70; apt source linux; cd linux-5.10.70; rm -r debian; cp -r ../linux/debian .
