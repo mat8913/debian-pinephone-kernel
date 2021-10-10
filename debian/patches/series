@@ -183,7 +183,6 @@ pp/0209-irqchip-sun6i-r-Use-a-stacked-irqchip-driver.patch
 pp/0210-irqchip-sun6i-r-Add-wakeup-support.patch
 pp/0218-irqchip-sun6i-r-Fix-interrupt-handling-on-A83T.patch
 pp/0219-mmc-sunxi-Disable-runtime-pm.patch
-pp/0235-power-supply-cw2015-Silence-cw2015.patch
 pp/0237-media-cedrus-Fix-missing-cleanup-in-error-path.patch
 pp/0238-media-cedrus-Fix-failure-to-clean-up-hardware-on-pro.patch
 pp/0251-clk-sunxi-ng-add-support-for-rate-resetting-notifier.patch
